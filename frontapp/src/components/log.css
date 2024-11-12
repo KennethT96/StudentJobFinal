@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d1e0f2;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+#logo {
+    width: 200px; /* Redimensionnez la largeur de l'image selon vos besoins */
+    height: auto; /* La hauteur est ajustée automatiquement pour conserver les proportions */
+}
+#page1 {
+    width: 600px; /* Redimensionnez la largeur de l'image selon vos besoins */
+    height: auto; /* La hauteur est ajustée automatiquement pour conserver les proportions */
+}
+
+main {
+    display: flex;
+  /*  justify-content: flex-end;*/
+    padding: 6px;
+    background-color: #f9fbfd;
+}
+#cons-main {
+    display: flex;
+    /*flex-direction: column;
+    align-items: flex-start;
+    padding: 6px;*/
+    padding: 0px;
+}
+#cons-main {
+  display: flex;
+}
+
+#cons-form1, #cons-form2 {
+  flex: 1;
+  margin-right: 50px; /* Ajoute une marge à droite pour l'espace entre les colonnes */
+}
+
+#cons-form2 {
+  margin-right: 0; /* Supprime la marge à droite pour la dernière colonne */
+}
+
+#cons-main h3 {
+    color: #d0af12;
+}
+.experts-container {
+    display: none; /* Caché par défaut */
+    flex-direction: column;
+    align-items: center;
+}
+.expert {
+    margin: 20px;
+    text-align: center;
+}
+.expert img {
+    border-radius: 50%; /* Créer une image de cercle */
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+
+#long-paragraphe {
+    text-align: left; /* Alignement du texte à gauche */
+    margin-right: 200px; /* Marge à droite pour l'espacement */
+}
+
+section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 70px;
+    margin-left: 30px;
+    width: 350px; /* Largeur du formulaire */
+}
+
+footer {
+    background-color: #85b8ee;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+}
+.footer-link {
+    margin-right: 50px; /* Ajoute une marge à droite pour chaque lien */
+}
+/*////////////////////////////////////////*/
+#offre-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 6px;
+}
+
+#filter-form {
+  display: flex; /* Affichage en flex */
+  flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+  margin-bottom: 20px;
+}
+
+#filter-form label {
+  display: inline-block; /* Affichage en ligne */
+    margin-right: 10px; /* Marge entre les éléments */
+    margin-bottom: 5px;
+}
+
+#filter-form select,
+#filter-form input[type="text"],
+#filter-form button {
+  margin-bottom: 10px; /* Marge en bas pour séparer les éléments */
+}
+#filter-form button {
+  margin-left: auto; /* Pour aligner le bouton à droite */
+}
+
+#filter-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#filter-form button:hover {
+  background-color: #0056b3;
+}
+
+#filter-form button:focus {
+  outline: none;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+#results h2 {
+  margin-bottom: 10px;
+}
+
+#results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#results li {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#results a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#results a:hover {
+  text-decoration: underline;
+}
+/**************************************************/
+#mooc {
+  display: flex;
+  justify-content: center;
+}
+
+#form-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 6px;
+}
+/*************************************************/
+#alum-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 6px;
+  height: 72vh;
+}
+#acc-main {
+  height: 68vh;
+  background-color: #FFFAFA
+}
